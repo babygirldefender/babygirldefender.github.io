@@ -1,0 +1,827 @@
+body {
+    background-color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display:block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+h1 {
+    text-align:center;
+}
+
+button {
+    float:right;
+}
+
+h2 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+.h {
+    text-align:right;
+}
+
+.alibaba {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 250px;
+    padding-bottom: 10px;
+}
+
+.futaba2 {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 370px;
+    height: 200px;
+}
+
+.teammates {
+    float: left;
+    height: 200px;
+    width: 370px;
+}
+
+
+.tohellwiththat {
+    float: right;
+    height: 200px;
+    width: 370px;
+}
+
+
+.friends {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 370px;
+}
+
+
+.december24 {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: 290px;
+    width: 390px;
+}
+
+.yoshida {
+    float: right;
+    width: 150px;
+    height: 400px;
+}
+
+.mishima {
+    float: left;
+    width: 90px;
+    height: 400px;
+}
+
+.hifumi {
+    float: right;
+    width: 100px;
+    height: 400px;
+}
+
+.oda {
+    float: left;
+    width: 110px;
+    height: 400px;
+}
+
+.ohya {
+    float: right;
+    width: 120px;
+    height: 400px;
+}
+
+.kawakami {
+    float: left;
+    width: 120px;
+    height: 400px;
+}
+
+.takemi {
+    float: right;
+    width: 150px;
+    height: 400px;
+}
+
+.iwai {
+    float: left;
+    width: 170px;
+    height: 400px;
+}
+
+.chihaya {
+    float: right;
+    width: 120px;
+    height: 400px;
+}
+
+.sojiro {
+    float: left;
+    width: 120px;
+    height: 400px;
+}
+
+.haru {
+    float: right;
+    width: 120px;
+    height: 400px;
+}
+
+.makoto {
+    float: left;
+    width: 120px;
+    height: 400px;
+}
+
+.ann {
+    float: right;
+    width: 140px;
+    height: 400px;
+}
+
+.ryuji {
+    float: left;
+    width: 140px;
+    height: 400px;
+}
+
+.thirdsem {
+    float: left; 
+    width:250px;
+    height: 250px;
+}
+
+.aimg1 {
+    float: left;
+    width: 370px;
+    height: 200px;
+}
+
+
+.aimg2 {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 370px;
+    height: 200px;
+}
+
+.aimg3 {
+    float: right;
+    width: 370px;
+    height: 200px;
+}
+
+.aimg4 {
+    float: left;
+    width: 370px;
+    height: 200px;
+}
+
+.aimg5 {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 370px;
+    height: 200px;
+}
+
+.aimg6 {
+    float: left;
+    width: 370px;
+    height: 200px;
+}
+
+.aimg7 {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 370px;
+    height: 200px;
+}
+
+.aimg8 {
+    float: right;
+    width: 370px;
+    height: 200px;
+}
+
+.akechi {
+    float: right; 
+    width:130px;
+    height: 400px;
+}
+
+.img1 {
+    float: left;
+    width: 350px;
+    height: 200px;
+}
+
+.img2 {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    height: 200px;
+}
+
+.img3 {
+    float: right;
+    width: 350px;
+    height: 200px;
+}
+
+.img4 {
+    float: left;
+    width: 350px;
+    height: 200px;
+}
+
+.img5 {
+    display: flex;
+    margin-left:auto;
+    margin-right: auto;
+    width: 350px;
+    height: 200px;
+}
+
+.img6 {
+    float: right;
+    width: 350px;
+    height: 200px;
+}
+
+.sumire {
+    float: left; 
+    width:180px;
+    height: 200px;
+}
+
+.img7 {
+    float: left;
+    width: 350px;
+    height: 200px;
+    padding-right: 70px;
+}
+
+.img8 {
+    display: flex;
+    margin-left:auto;
+    margin-right: auto;
+    width: 350px;
+    height: 200px;
+    padding-right: 70px;
+}
+
+.img9 {
+    float: right;
+    width: 350px;
+    height: 200px;
+}
+
+
+.kasumi {
+    float: right; 
+    width:130px;
+    height: 400px;
+}
+
+.futaba {
+    float: left; 
+    width:150px;
+    height: 350px;
+}
+
+.yimg1 {
+    float: left; 
+    width:370px;
+    height: 200px;
+}
+
+.yimg2 {
+    display: flex;
+    margin-left:auto;
+    margin-right: auto;
+    width: 370px;
+    height: 200px;
+}
+
+.yimg3 {
+    float: right; 
+    width:370px;
+    height: 200px;
+}
+
+.yusuke {
+    float: left; 
+    width:90px;
+    height: 350px;
+}
+
+.yoimg1 {
+    float: left; 
+    width:370px;
+    height: 200px;
+}
+
+.yoimg2 {
+    display: flex;
+    margin-left:auto;
+    margin-right: auto;
+    width: 370px;
+    height: 200px;
+}
+
+.yoimg3 {
+    float: right; 
+    width:370px;
+    height: 200px;
+}
+
+
+.yosuke {
+    float: right; 
+    width:200px;
+    height: 300px;
+}
+
+.nimg1 {
+    float: left;
+    height: 200px;
+    width: 390px;
+}
+
+.nimg2 {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 390px;
+}
+
+.nimg3 {
+    float: right;
+    height: 200px;
+    width: 390px;
+}
+
+.naoto {
+    float: left; 
+    width:150px;
+    height: 300px;
+}
+
+.rimg1 {
+    float: left;
+    height: 200px;
+    width: 390px;
+}
+
+.rimg2 {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 390px;
+}
+
+.rimg3 {
+    float: right;
+    height: 200px;
+    width: 390px;
+}
+
+.rise {
+    float: left; 
+    width:130px;
+    height: 300px;
+}
+
+.z {
+    float: left;
+    height: 200px;
+    width: 390px;
+}
+
+.calm {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 390px;
+}
+
+.cat {
+    float: right;
+    height: 200px;
+    width: 390px;
+}
+
+.zenkichi {
+    float:right;
+    width: 100px;
+    height: 300px;
+}
+
+.fellin {
+    float: left;
+    height: 200px;
+    width: 390px;
+}
+
+.inside {
+    float: right;
+    height: 200px;
+    width: 390px;
+}
+
+.deal {
+    float: left;
+    height: 200px;
+    width: 390px;
+}
+
+.lie {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 390px;
+}
+
+.push {
+    float: right;
+    height: 200px;
+    width: 390px;
+}
+
+.adachi {
+    float: left; 
+    width:150px;
+    height: 300px;
+}
+
+.kamoshida1 {
+    float: left;
+    width: 300px;
+    height: 300px;
+}
+
+.kamoshida2 {
+    float: right;
+    width: 300px;
+    height: 300px;
+}
+
+.madarame1 {
+    float: left;
+    width: 350px;
+    height: 330px;
+}
+
+.madarame2 {
+    float: right;
+    width: 300px;
+    height: 340px;
+}
+
+.kaneshiro1 {
+    float: left;
+    width: 300px;
+    height: 300px;
+}
+
+.kaneshiro2 {
+    float: right;
+    width: 350px;
+    height: 300px;
+}
+
+.okumura1 {
+    float: left;
+    width: 300px;
+    height: 300px;
+}
+
+.okumura2 {
+    float: right;
+    width: 300px;
+    height: 300px;
+}
+
+.sae1 {
+    float: left;
+    width: 370px;
+    height: 380px;
+}
+
+.sae2 {
+    float: right;
+    width: 370px;
+    height: 380px;
+}
+
+.shido1 {
+    float: left;
+    width: 400px;
+    height: 350px;
+}
+
+.shido2 {
+    float: right;
+    width: 400px;
+    height: 350px;
+}
+
+.mementos {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;
+    height: 400px;
+}
+
+.chie {
+    float:left;
+    width: 200px;
+    height: 400px;
+}
+
+.yukiko {
+    float: right;
+    width: 150px;
+    height: 400px;
+}
+
+.kanji {
+    float: left;
+    width: 300px;
+    height: 400px;
+}
+
+.dojima {
+    float: right;
+    width: 200px;
+    height: 400px;
+}
+
+.nanako {
+    float: left;
+    width: 200px;
+    height: 400px;
+}
+
+.ai {
+    float: right;
+    width: 160px;
+    height: 400px;
+}
+
+.kou {
+    float: left;
+    width: 125px;
+    height: 400px;
+}
+
+.daisuke {
+    float: right;
+    width: 130px;
+    height: 400px;
+}
+
+.yumi {
+
+    float: left;
+    width: 100px;
+    height: 400px;
+}
+
+.ayane {
+    float: right;
+    width: 100px;
+    height: 400px;
+}
+
+.naoki {
+    float: left;
+    width: 110px;
+    height: 400px;
+}
+
+.sayoko {
+    float: right;
+    width: 90px;
+    height: 400px;
+}
+
+.shu {
+    float: left;
+    width: 130px;
+    height: 400px;
+}
+
+.eri {
+    float: right;
+    width: 130px;
+    height: 400px;
+}
+
+
+
+
+
+#leftrow {
+    float: right;
+    margin-right: auto;
+    margin-left:auto;
+}
+
+* {
+    box-sizing:border-box;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    DISPLAY: table;
+    table-layout: auto;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col1-"] {
+    float: right;
+    padding: 15px;
+}
+
+.col1-1 {width: 8.33%;}
+.col1-2 {width: 16.66%;}
+.col1-3 {width: 25%;}
+.col1-4 {width: 33.33%;}
+.col1-5 {width: 41.66%;}
+.col1-6 {width: 50%;}
+.col1-7 {width: 58.33%;}
+.col1-8 {width: 66.66%;}
+.col1-9 {width: 75%;}
+.col1-10 {width: 83.33%;}
+.col1-11 {width: 91.66%;}
+.col1-12 {width: 100%;}
+
+#footer {
+    width: 100%;
+    height: 100px;
+    border: none;
+    background-color: rgb(136, 125, 125);
+}
+
+button {
+    background-color: darkred;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(99, 24, 24);
+    color: white;
+}
+
+p {
+    text-align:center;
+}
+
+.a {
+    text-align: center;
+}
+
+input[type=submit] {
+    background-color: darkred;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(99, 24, 24);
+    color: white;
+}
+
+fieldset {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.leblanc {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: 800px;
+}
+
+.shujin {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: 800px;
+}
+
+.inaba {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: 800px;
+}
+
+.metaverse {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: 800px;
+}
+
+.kamopalace {
+    float: left;
+    height: 300px;
+    width: 600px;
+    padding-bottom: 10px;
+}
+
+.saepalace {
+   float: right;
+    height: 300px;
+    width: 600px;
+    padding-bottom: 10px;
+}
