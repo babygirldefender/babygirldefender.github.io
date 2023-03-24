@@ -1,0 +1,282 @@
+body {
+    background-color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display:block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+h1 {
+    text-align:center;
+}
+
+button {
+    float:right;
+}
+
+h2 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+* {
+    box-sizing:border-box;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    DISPLAY: table;
+    table-layout: auto;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+p {
+    text-align: center;
+}
+
+.size {
+    display: block;
+    margin-right: auto;
+    float: right;
+    width: 20%;
+}
+
+.size2 {
+    display: block;
+    margin-left: auto;
+    float: left;
+    width: 20%;
+}
+
+.size3 {
+    display: block;
+    margin-right: auto;
+    float: right;
+    width: 20%;
+}
+
+.p4 {
+    position:relative;
+    left:-0px;
+}
+
+button {
+    background-color: rgb(33, 31, 31);
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(182, 53, 53);
+    color: white;
+}
+
+#footer {
+    width: 100%;
+    height: 100px;
+    border: none;
+    background-color: rgb(136, 125, 125);
+}
+
+.maruki {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 120px;
+    height: 400px; 
+}
+
+.marukipalace {
+    float: left;
+    width: 300px;
+    height: 350px;
+}
+
+.marukiboss {
+    float: right;
+    width: 300px;
+    height: 350px;
+}
+
+.labofsorrow {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    height: 400px;
+}
+
+.survey {
+    float: left;
+    height: 200px;
+    width: 400px;
+}
+
+.survey3 {
+    float: right;
+    height: 200px;
+    width: 400px;
+}
+
+.survey2 {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 400px;
+}
+
+.garden {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: 700px;
+}
+
+.akadmon {
+    float: left;
+    height: 300px;
+    width: 600px;
+    padding-bottom: 10px;
+}
+
+.akadmon2 {
+    float: right;
+    height: 300px;
+    width: 600px;
+    padding-bottom: 10px;
+}
+
+.maru {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: 800px;
+}
+
+.sb {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 400px;
+}
+
+.taxi {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: 350px;
+    width: 600px;
+}
+
+.fist1 {
+    float: left;
+    height: 210px;
+    width: 400px;
+}
+
+.defeat {
+    float: right;
+    height: 210px;
+    width: 400px;
+}
+
+.fist3 {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: 210px;
+    width: 400px;
+}
+
+.mimg1 {
+    float: left;
+    height: 200px;
+    width: 350px;
+}
+
+.mimg2 {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 350px;
+}
+
+.mimg3 {
+    float: right;
+    height: 200px;
+    width: 350px;
+}
+
+.mimg4 {
+    float: left;
+    height: 200px;
+    width: 350px;
+}
+
+.mimg5 {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 350px;
+}
+
+.mimg6 {
+    float: right;
+    height: 200px;
+    width: 350px;
+}
+
