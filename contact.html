@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>My Favorite Persona Characters</title>
+        <meta name="description" content="This website will give you a basic understanding of the Persona series with short descriptions for each game">
+        <meta name="author" content="Mia">
+        <meta name="keywords" content="My favorite Persona characters, Persona, Atlus, Shin Megami Tensei, SMT, Persona 5, Persona 5: Royal, royal, Persona 4, Persona 4: Golden, golden, Persona 3, Persona 3: Portable, Persona 3: FES, fes, portable, Persona 2, Persona 2: Innocent Sin, Persona 2: Eternal Punishment, innocent sin, eternal punishment, Persona 1">
+        <link rel="stylesheet" href="styles/style.css"/>
+        
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                <li><a class="active" href="index.html">Home & character list</a></li>
+                <li><a href="important.html">What is Persona?</a></li>
+                <li><a href="contact.html">Contact me!!</a> &nbsp;</li>
+                <li><a href="about.html">About</a></li>
+                </ul>
+            </nav> 
+        </header>
+        
+        <main>
+            <div class="row">
+                <div class="col-12">
+            <h1>Tell me your favorite character!!</h1>
+
+            <br><br>
+            <h2 id="errorMsg"></h2>
+            </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-12">
+            <form id="myForm" action="thankyou.html" method="post">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" required="required">
+                <br><br>
+                <label for="uEmail">Email Address:</label>
+                <input type="email" id="uEmail" name="uEmail" required="required">
+                <br><br>
+                <label for="uEmail">Re-Type Email Address:</label>
+                <input type="email" id="uEmail" name="uEmail" required="required">
+                <br><br>
+
+            <label for="dropdown">Character:</label>
+        <select name="dropdown" id="character">
+          <option value="Joker/Protagonist">Joker/Protagonist (Persona 5)</option>
+          <option value="Morgana">Morgana</option>
+          <option value="Ryuji Sakamoto">Ryuji Sakamoto</option>
+          <option value="Ann Takamaki">Ann Takamaki</option>
+          <option value="Yusuke Kitagawa">Yusuke Kitagawa</option>
+          <option value="Makoto Nijima">Makoto Nijima</option>
+          <option value="Futaba Sakura">Futaba Sakura</option>
+          <option value="Haru Okumura">Haru Okumura</option>
+          <option value="Goro Akechi">Goro Akechi</option>
+          <option value="Sumire Yoshizawa">Sumire Yoshizawa</option>
+          <option value="Chihaya Mifune">Chihaya Mifune</option>
+          <option value="Hifumi Togo">Hifumi Togo</option>
+          <option value="Ichiko Ohya">Ichiko Ohya</option>
+          <option value="Munehisa Iwai">Munehisa Iwai</option>
+          <option value="Sadayo Kawakami">Sadayo Kawakami</option>
+          <option value="Sae Nijima">Sae Nijima</option>
+          <option value="Sojiro Sakura">Sojiro Sakura</option>
+          <option value="Shinya Oda">Shinya Oda</option>
+          <option value="Tae Takemi">Tae Takemi</option>
+          <option value="Takuto Maruki">Takuto Maruki</option>
+          <option value="Yuuki Mishima">Yuuki Mishima</option>
+          <option value="Zenkichi Hasegawa">Zenkichi Hasegawa</option>
+          <option value="Sophia">Sophia</option>
+          <option value="Kuon Ichinose">Kuon Ichinose</option>
+          <option value="Yu Narukami/Protagonist">Yu Narukami/Protagonist (Persona 4)</option>
+          <option value="Yosuke Hanamura">Yosuke Hanamura</option>
+          <option value="Chie Satonaka">Chie Satonaka</option>
+          <option value="Yukiko Amagi">Yukiko Amagi</option>
+          <option value="Kanji Tatsumi">Kanji Tatsumi</option>
+          <option value="Rise Kujikawa">Rise Kujikawa</option>
+          <option value="Naoto Shirogane">Naoto Shirogane</option>
+          <option value="Ryotaro Dojima">Ryotaro Dojima</option>
+          <option value="Nanako Dojima">Nanako Dojima</option>
+          <option value="Tohru Adachi">Tohru Adachi</option>
+          <option value="Kou Ichijo">Kou Ichijo</option>
+          <option value="Ai Ebihara">Ai Ebihara</option>
+          <option value="Ayane Matsunaga">Ayana Matsunaga</option>
+          <option value="Daisuke Nagase">Daisuke Nagase</option>
+          <option value="Naoki Konishi">Naoki Konishi</option>
+          <option value="Yumi Ozawa">Yumi Ozawa</option>
+          <option value="Makoto Yuuki/Protagonist">Makoto Yuuki/Protagonist (Persona 3)</option>
+          <option value="Kotone Shiomi/FemC">Kotone Shiomi/FemC (Persona 3)</option>
+          <option value="Koromaru">Koromaru</option>
+          <option value="Yukari Takeba">Yukari Takeba</option>
+          <option value="Junpei Iori">Junpei Iori</option>
+          <option value="Mitsuru Kirijo">Mitsuru Kirijo</option>
+          <option value="Akihiko Sanada">Akihiko Sanada</option>
+          <option value="Fuuka Yamagishi">Fuuka Yamagishi</option>
+          <option value="Aigis">Aigis</option>
+          <option value="Ken Amada">Ken Amada</option>
+          <option value="Shinjiro Aragaki">Shinjiro Aragaki</option>
+          <option value="Metis">Metis (Persona 3 FES: The Answer)</option>
+          <option value="Shuji Ikutsuki">Shuji Ikutsuki</option>
+          <option value="Isako Toriumi">Isako Toriumi</option>
+          <option value="Ryoji Mochizuki">Ryoji Mochizuki</option>
+          <option value="Kenji Tomochika">Kenji Tomochika</option>
+          <option value="Nozomi Suemitsu">Nozomi Suemitsu</option>
+          <option value="Hidetoshi Odagiri">Hidetoshi Odagiri</option>
+          <option value="Chihiro Fushimi">Chihiro Fushimi</option>
+          <option value="Andre Laurent Jean Geraux">Andre Laurent Jean Geraux</option>
+          <option value="Kazushi Miyamoto">Kazushi Miyamoto</option>
+          <option value="Keisuke Hiraga">Keisuke Hiraga</option>
+          <option value="Rio Iwasaki">Rio Iwasaki</option>
+          <option value="Yuko Nishiwaki">Yuko Nishiwaki</option>
+          <option value="Saori Hasegawa">Saori Hasegawa</option>
+          <option value="Natsuki Moriyama">Natsuki Moriyama</option>
+          <option value="Kiyoshi Sakuma">Kiyoshi Sakuma</option>
+          <option value="Takaya Sakaki">Takaya Sakaki</option>
+          <option value="Jin Shirato">Jin Shirato</option>
+          <option value="Chidori Yoshino">Chidori Yoshino</option>
+          <option value="Maiko Oohashi">Maiko Oohashi</option>
+          <option value="Bunkichi and Mitsuko">Bunkichi and Mitsuko</option>
+          <option value="Akinari Kamiki">Akinari Kamiki</option>
+          <option value="President Tanaka">President Tanaka</option>
+          <option value="Mutatsu">Mutatsu</option>
+          <option value="Mamoru Hayase">Mamoru Hayase</option>
+          <option value="Nozomi Suemitsu">Nozomi Suemitsu</option>
+          <option value="Hidetoshi Odagiri">Hidetoshi Odagiri</option>
+        </select>
+        </div>
+        </div>
+                <br><br>
+        
+                <div class="row">
+                    <div class="col-12">
+                <fieldset>
+                <legend>Console</legend>
+                <input type="radio" id="playstation" name="console" required="required">Playstation
+                <br>
+                <input type="radio" id="windows" name="console" required="required">Windows
+                <Br>
+                <input type="radio" id="xboxone" name="console" required="required">Xbox One
+                <br>
+                <input type="radio" id="xboxseries" name="console" required="required">Xbox Series X/S
+                <br>
+                <input type="radio" id="nintendoswitch" name="console" required="required">Nintendo Switch
+                <br><br>
+             <input type="submit" onclick="checkForm()">
+                </form>
+
+                 <p>Contact me at:</p>
+                    <p><a id="a" href="mailto:placehold@gmail.com"> malekun40@gmail.com</a></p>
+            </fieldset>
+            </div>
+            </div>
+        </main>
+        
+        <footer>
+            <br><br>
+            <iframe id="footer" src="footer.html" title="Footer"></iframe>
+        </footer>
+    
+        <script src="scripts/scripts.js" defer></script>
+    </body>
+</html>
